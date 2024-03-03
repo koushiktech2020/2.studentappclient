@@ -138,6 +138,8 @@ const SaveStudentModal = ({
           response = await postData(endPoint, studentData); // POST request to add new user
         }
 
+        console.log(response);
+
         setIsSaving(false);
 
         resetAll(); // Reset all state variables
@@ -291,10 +293,10 @@ const SaveStudentModal = ({
               Save changes
               {isSaving && (
                 <div
-                  class="ms-2 spinner-border spinner-border-sm text-light"
+                  className="ms-2 spinner-border spinner-border-sm text-light"
                   role="status"
                 >
-                  <span class="visually-hidden">Loading...</span>
+                  <span className="visually-hidden">Loading...</span>
                 </div>
               )}
             </button>
