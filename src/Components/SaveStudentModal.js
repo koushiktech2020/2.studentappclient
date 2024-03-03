@@ -138,8 +138,6 @@ const SaveStudentModal = ({
           response = await postData(endPoint, studentData); // POST request to add new user
         }
 
-        console.log(response);
-
         setIsSaving(false);
 
         resetAll(); // Reset all state variables
@@ -233,7 +231,7 @@ const SaveStudentModal = ({
                   type="email"
                   className="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="user@email.com"
+                  placeholder="user@email.com (Enter different email)"
                   name="email"
                   value={email}
                   onChange={onInputChangeHandler}
@@ -267,7 +265,7 @@ const SaveStudentModal = ({
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="Phone"
+                  placeholder="Phone (Enter different phone number)"
                   name="phone"
                   value={phone}
                   onChange={onInputChangeHandler}
