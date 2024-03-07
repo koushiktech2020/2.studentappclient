@@ -1,7 +1,7 @@
 # 1. Mern student Management App
 
 This is a student management application built using React for the frontend.
-Checkout on **https://mernstudentcrudclient.netlify.app/**
+Checkout on **https://mernstudentapp.netlify.app/**
 
 ## 2. Features
 
