@@ -178,7 +178,7 @@ const SaveStudentModal = ({
 
   return (
     <div
-      className="modal fade"
+      className="modal fade "
       id="saveStudentModal"
       tabIndex="-1"
       aria-labelledby="saveStudentModalLabel"

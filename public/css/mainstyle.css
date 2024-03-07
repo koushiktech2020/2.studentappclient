@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home_title {
+  font-size: 4.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.home_bg {
+  background-color: #031f3f;
+  /* background-color: #aab2bb; */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.loadin_sec > h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.loadin_sec > div {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.home_table_sec {
+  margin-top: 5rem;
+  height: 42rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.home_table {
+  width: 100%;
+}
+
+th {
+  font-size: 2rem;
+  color: #fff;
+  border: 1px solid white;
+  padding: 1rem 0;
+  font-weight: 700;
+}
+
+td {
+  font-size: 2rem;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.add_btn {
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.action_btn > button {
+  font-size: 1.6rem;
+}
+
+.modal-title {
+  font-size: 3.6rem;
+}
